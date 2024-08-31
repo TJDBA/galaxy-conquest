@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bawcq4kvxhnd0"]
+
+[ext_resource type="Script" path="res://scripts/Sextant.gd" id="1_18bto"]
+[ext_resource type="TileSet" uid="uid://cmdt63xkuusry" path="res://scenes/Sextant.tres" id="2_ckg8n"]
+
+[node name="Sextant" type="Node2D"]
+script = ExtResource("1_18bto")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(17, 63)
+tile_set = ExtResource("2_ckg8n")
+rendering_quadrant_size = 20
+navigation_visibility_mode = 1
