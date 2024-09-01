@@ -9,10 +9,11 @@ func _ready():
 		print("TileMapLayer node not found!")
 		return
 	
+#Red, Blue, Teal, Purple, Yellow, Orange, Green, Pink, Grey, Light Blue, Dark Green, Brown
 	# Place a single tile at (0, 0)
 	print("here2")
 	print(tile_id)
-	tilemaplayer.set_cell(Vector2i(0, 0),0,Vector2i(0, 0))
-	tilemaplayer.set_cell(Vector2i(1, 0),0,Vector2i(0, 0))
-	tilemaplayer.set_cell(Vector2i(2, 0),0,Vector2i(0, 0))
+	tilemaplayer.set_cell(Vector2i(0, 0),1,Vector2i(0, 0))
+	tilemaplayer.set_cell(Vector2i(1, 0),1,Vector2i(0, 1))
+	tilemaplayer.set_cell(Vector2i(2, 0),1,Vector2i(0, 2))
 	#tilemaplayer.set_cell(Vector2i(3, 0),0,Vector2i(0, 0))
